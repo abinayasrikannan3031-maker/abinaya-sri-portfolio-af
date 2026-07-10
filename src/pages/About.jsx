@@ -211,6 +211,7 @@ const About = () => {
                     { bw: '/off-the-clock/laptop-bw.png', color: '/off-the-clock/laptop-color.png', alt: 'Laptop and Pepsi' },
                     { bw: '/off-the-clock/footprints-bw.png', color: '/off-the-clock/footprints-color.png', alt: 'Footprints' },
                     { bw: '/off-the-clock/camera-bw.png', color: '/off-the-clock/camera-color.png', alt: 'Camera Portrait' },
+                    { bw: '/off-the-clock/cake-bw.jpg', color: '/off-the-clock/cake-color.jpg', alt: 'Cake' },
                   ].map((item, index) => (
                     <div
                       key={`orig-${index}`}
@@ -232,6 +233,7 @@ const About = () => {
                     { bw: '/off-the-clock/laptop-bw.png', color: '/off-the-clock/laptop-color.png', alt: 'Laptop and Pepsi' },
                     { bw: '/off-the-clock/footprints-bw.png', color: '/off-the-clock/footprints-color.png', alt: 'Footprints' },
                     { bw: '/off-the-clock/camera-bw.png', color: '/off-the-clock/camera-color.png', alt: 'Camera Portrait' },
+                    { bw: '/off-the-clock/cake-bw.jpg', color: '/off-the-clock/cake-color.jpg', alt: 'Cake' },
                   ].map((item, index) => (
                     <div
                       key={`dup-${index}`}

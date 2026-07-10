@@ -140,7 +140,7 @@ export default function Navigation() {
               transition={{ duration: 0.6, delay: 0.2 }}
               src="/logo.png" 
               alt="Abinaya Sri Logo" 
-              className="w-[32px] h-[32px] md:w-[40px] md:h-[40px] object-contain animate-[spin_4s_linear_infinite]" 
+              className="w-[32px] h-[32px] md:w-[40px] md:h-[40px] object-contain animate-[spin_10s_linear_infinite]" 
             />
           </motion.picture>
         </Link>

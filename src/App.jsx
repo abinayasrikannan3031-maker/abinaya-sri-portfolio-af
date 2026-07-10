@@ -8,6 +8,7 @@ import AutistemCaseStudy from './pages/AutistemCaseStudy';
 import HomeMaintenanceCaseStudy from './pages/HomeMaintenanceCaseStudy';
 import About from './pages/About';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="flex flex-col bg-[#F8F7F4] md:bg-[#F8F7F4] overflow-x-hidden">
+      <ScrollToTop />
       <Navigation />
       <div className="pt-[80px]">
         <PageTransition>
